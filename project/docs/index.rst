@@ -9,7 +9,7 @@ Welcome to rtdTest's documentation!
 Contents:
 
 .. toctree::
-      :maxdepth: 2
+      :maxdepth: 3
    :caption: Contents:
 
    intro
