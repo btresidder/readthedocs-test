@@ -15,12 +15,6 @@ Contents:
    intro
    testfile
 
-factorialAPI main
-==================
-.. automodule:: factorial
-      :members:
-
-
 
 Indices and tables
 ==================
