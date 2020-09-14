@@ -14,6 +14,7 @@ Contents:
 
    intro
    testfile
+   testpage
 
 
 Indices and tables
