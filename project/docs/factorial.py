@@ -13,7 +13,7 @@ def factorial(n):
     :param n: a positive integer
     :return: the factorial of n as an integer
 
-    
+    .. doctest::
     
 	>>> print(2+2)
 	4

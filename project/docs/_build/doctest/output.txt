@@ -1,0 +1,62 @@
+Results of doctest builder run on 2020-09-14 10:47:26
+=====================================================
+
+Document: index
+---------------
+**********************************************************************
+File "index.rst", line 7, in default
+Failed example:
+    factorial(5)
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib64/python2.7/doctest.py", line 1289, in __run
+        compileflags, 1) in test.globs
+      File "<doctest default[0]>", line 1, in <module>
+        factorial(5)
+    NameError: name 'factorial' is not defined
+**********************************************************************
+File "index.rst", line 13, in default
+Failed example:
+    [factorial(n) for n in range(6)]
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib64/python2.7/doctest.py", line 1289, in __run
+        compileflags, 1) in test.globs
+      File "<doctest default[0]>", line 1, in <module>
+        [factorial(n) for n in range(6)]
+    NameError: name 'factorial' is not defined
+**********************************************************************
+File "index.rst", line 16, in default
+Failed example:
+    factorial(30)
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib64/python2.7/doctest.py", line 1289, in __run
+        compileflags, 1) in test.globs
+      File "<doctest default[0]>", line 1, in <module>
+        factorial(30)
+    NameError: name 'factorial' is not defined
+**********************************************************************
+File "index.rst", line 19, in default
+Failed example:
+    factorial(30.0)
+Exception raised:
+    Traceback (most recent call last):
+      File "/usr/lib64/python2.7/doctest.py", line 1289, in __run
+        compileflags, 1) in test.globs
+      File "<doctest default[0]>", line 1, in <module>
+        factorial(30.0)
+    NameError: name 'factorial' is not defined
+**********************************************************************
+1 items had failures:
+   4 of   5 in default
+5 tests in 1 items.
+1 passed and 4 failed.
+***Test Failed*** 4 failures.
+
+Doctest summary
+===============
+    5 tests
+    4 failures in tests
+    0 failures in setup code
+    0 failures in cleanup code
