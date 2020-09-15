@@ -46,7 +46,7 @@ will
 work
 
 
-.. _factorial-label
+
 
 factorial main
 ==============
