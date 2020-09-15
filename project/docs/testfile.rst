@@ -49,7 +49,7 @@ work
 .. _factorial-label
 
 factorial main
-----------------
+==============
 .. automodule:: factorial
          :members:
 
