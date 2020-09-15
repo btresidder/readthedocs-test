@@ -45,8 +45,10 @@ will
 
 work
 
-factorialAPI main
-==================
+
+.. _factorial-label
+factorial main
+----------------
 .. automodule:: factorial
          :members:
 
